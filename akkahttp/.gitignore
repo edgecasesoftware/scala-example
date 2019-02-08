@@ -1,0 +1,17 @@
+# Don't track content of these folders
+target/
+.idea/
+out/
+.gradle/
+# Compiled source #
+###################
+
+
+# Packages #
+############
+
+############
+
+*.log
+*.jar
+*.class

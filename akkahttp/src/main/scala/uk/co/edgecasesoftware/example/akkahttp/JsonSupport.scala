@@ -1,10 +1,9 @@
 package uk.co.edgecasesoftware.example.akkahttp
 
-import com.example.UserRegistryActor.ActionPerformed
-
 //#json-support
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import spray.json.DefaultJsonProtocol
+import uk.co.edgecasesoftware.example.akkahttp.UserRegistryActor.ActionPerformed
 
 trait JsonSupport extends SprayJsonSupport {
   // import the default encoders for primitive types (Int, String, Lists etc)

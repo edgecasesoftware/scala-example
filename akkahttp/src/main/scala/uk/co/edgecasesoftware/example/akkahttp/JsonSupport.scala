@@ -1,4 +1,4 @@
-package com.example
+package uk.co.edgecasesoftware.example.akkahttp
 
 import com.example.UserRegistryActor.ActionPerformed
 

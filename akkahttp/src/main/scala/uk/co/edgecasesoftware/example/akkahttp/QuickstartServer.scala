@@ -1,13 +1,12 @@
-package com.example
+package uk.co.edgecasesoftware.example.akkahttp
 
-//#quick-start-server
-import scala.concurrent.Await
-import scala.concurrent.duration.Duration
-
-import akka.actor.{ ActorRef, ActorSystem }
+import akka.actor.{ActorRef, ActorSystem}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
+
+import scala.concurrent.Await
+import scala.concurrent.duration.Duration
 
 //#main-class
 object QuickstartServer extends App with UserRoutes {
@@ -35,5 +34,3 @@ object QuickstartServer extends App with UserRoutes {
   //#http-server
   //#main-class
 }
-//#main-class
-//#quick-start-server

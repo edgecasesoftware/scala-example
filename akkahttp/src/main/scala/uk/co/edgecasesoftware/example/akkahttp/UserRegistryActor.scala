@@ -1,4 +1,4 @@
-package com.example
+package uk.co.edgecasesoftware.example.akkahttp
 
 //#user-registry-actor
 import akka.actor.{ Actor, ActorLogging, Props }

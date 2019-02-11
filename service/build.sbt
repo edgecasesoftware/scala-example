@@ -7,5 +7,5 @@ lazy val root = (project in file("."))
     scalaVersion := "2.12.8"
   )
   .settings (
-    libraryDependencies ++= scalaTest ++ logging ++ configHandler ++ akka
+    libraryDependencies ++= scalaTest ++ logging ++ configHandler ++ akka ++ circe
   )
